@@ -36,5 +36,5 @@ loss.backward()
 
 ### Contact
 * [shuaitang93@ucsd.edu](mailto:shuaitang93.ucsd.edu) - Email
-* [@Shuai93Tangr](https://twitter.com/Shuai93Tang) - Twitter
-* [shuaitang](http://shuaitang.github.io/) - Homepage
+* [@Shuai93Tang](https://twitter.com/Shuai93Tang) - Twitter
+* [Shuai Tang](http://shuaitang.github.io/) - Homepage
