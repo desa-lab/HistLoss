@@ -24,7 +24,7 @@ class Hist(torch.autograd.Function):
     lower = lower.long()
     upper = upper.long()
 
-    hist = torch.bincount(upper, delta_u * w, n_bins) + torch.bincount( lower, delta_l * w, n_bins)
+    hist = torch.bincount(upper, delta_u * w, n_bins + 1) + torch.bincount( lower, delta_l * w, n_bins + 1)
     w_sum = w.sum()
     hist = hist / w_sum
 
