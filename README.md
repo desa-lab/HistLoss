@@ -7,8 +7,8 @@ Both forward and backward functions are implemented, so it can be used as a loss
 
 ### Implementation
 This implementation is based on two pieces of information available online about pytorch:
-* [torch.bincount] - https://pytorch.org/docs/stable/torch.html?highlight=bincount#torch.bincount
-* [Extending Pytorch] - https://pytorch.org/docs/stable/notes/extending.html
+* [torch.bincount](https://pytorch.org/docs/stable/torch.html?highlight=bincount#torch.bincount) - The very fast `bincount` function in pytorch
+* [Extending Pytorch](https://pytorch.org/docs/stable/notes/extending.html) - Writing your own customised layer with both forward and backward functions.
 
 
 ### Prerequisites
@@ -34,3 +34,7 @@ Backward computation
 loss.backward()
 ```
 
+### Contact
+* [shuaitang93@ucsd.edu](mailto:shuaitang93.ucsd.edu) - Email
+* [@Shuai93Tangr](https://twitter.com/Shuai93Tang) - Twitter
+* [shuaitang](http://shuaitang.github.io/) - Homepage
