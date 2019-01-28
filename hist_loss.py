@@ -6,7 +6,7 @@ class Hist(torch.autograd.Function):
   @staticmethod
   def forward(ctx, sim, n_bins, w):
 
-    # linearly transform similarity values to ones between 0 and 1
+    # linearly transform similarity values to the range between 0 and 1
     sim = sim.data
     max_, min_ = torch.max(sim), torch.min(sim)     
     sim = (sim - min_) / (max_ - min_)
