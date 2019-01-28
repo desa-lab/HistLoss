@@ -1,6 +1,6 @@
 # Histogram Loss
 A fast implementation of the histogram loss in pytorch, and the original paper can be found here:
-* [Learning Deep Embeddings with Histogram Loss] - https://arxiv.org/pdf/1611.00822.pdf
+* [Learning Deep Embeddings with Histogram Loss](https://arxiv.org/pdf/1611.00822.pdf) - Evgeniya Ustinova, Victor Lempitsky
 
 ## Getting started
 Both forward and backward functions are implemented, so it can be used as a loss function in your own work. This version is rather stable on both CPUs and GPUs as no outstanding errors occurred during tests.
