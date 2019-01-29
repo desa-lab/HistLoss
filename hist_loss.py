@@ -74,10 +74,7 @@ class HistogramLoss(nn.Module):
  
     pdf_pos = self.hist(sim_pos, n_bins, w_pos)
     pdf_neg = self.hist(sim_neg, n_bins, w_neg)
-    print("pos")
-    print(pdf_pos.view(1,-1))
-    print("neg")
-    print(pdf_neg.view(1,-1))
+
     cdf_pos = torch.cumsum(pdf_pos, dim=0)
     loss = (cdf_pos * pdf_neg).sum()
 
